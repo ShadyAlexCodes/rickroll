@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Rick Roll Me!</title>
+    
+    <script>
+        $(function(){
+      $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+
+      $(window).resize(function(){
+        $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+      });
+    });
+
+
+    </script>
+  </head>
+  
+  <body>
+    <iframe id="video" src="//www.youtube.com/embed/DLzxrzFCyOs" frameborder="0" allowfullscreen></iframe>
+  </body>
+
+
+</html>
